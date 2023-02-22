@@ -1,0 +1,56 @@
+.forOuter {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+}
+.forHeader {
+  font-family: 'Roboto';
+  color: #252627;
+  font-size: 34px;
+  text-align: center;
+  margin-left: 20px;
+}
+.forInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.forInput {
+  background-color: #f1f5f9;
+  border-radius: 7px;
+  outline: none;
+  width: 55vw;
+  padding: 8px;
+  border-width: 0px;
+  font-family: 'Open Sans';
+  margin-left: 15px;
+}
+.forUL {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.forImage {
+  width: 30px;
+}
+.forInputs {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .forInner {
+    align-items: flex-start;
+    padding-left: 30px;
+    margin-left: 40px;
+  }
+  .forHeader {
+    margin-left: 30px;
+    font-size: 28px;
+  }
+  .forInput {
+    margin-left: 30px;
+    width: 230px;
+  }
+}
