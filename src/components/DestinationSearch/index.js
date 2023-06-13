@@ -21,24 +21,24 @@ class DestinationSearch extends Component {
     )
 
     return (
-      <div className="forOuter">
-        <div className="forInner">
-          <h1 className="forHeader">Destination Search</h1>
-          <div className="forInputs">
+      <div className="for-outer">
+        <div className="for-inner">
+          <h1 className="for-header">Destination Search</h1>
+          <div className="for-inputs">
             <input
               type="search"
               onChange={this.forChange}
-              className="forInput"
+              className="for-input"
               placeholder="Search"
               value={SearchInput}
             />
             <img
               src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png"
               alt="search icon"
-              className="forImage"
+              className="for-image"
             />
           </div>
-          <ul className="forUL">
+          <ul className="for-ul">
             {SearchResults.map(eachDestination => (
               <DestinationItem
                 Each={eachDestination}

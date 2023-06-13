@@ -1,23 +1,23 @@
-.forOuter {
+.for-outer {
   background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 90px;
 }
-.forHeader {
+.for-header {
   font-family: 'Roboto';
   color: #252627;
   font-size: 34px;
   text-align: center;
   margin-left: 20px;
 }
-.forInner {
+.for-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.forInput {
+.for-input {
   background-color: #f1f5f9;
   border-radius: 7px;
   outline: none;
@@ -27,29 +27,29 @@
   font-family: 'Open Sans';
   margin-left: 15px;
 }
-.forUL {
+.for-ul {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
 }
-.forImage {
+.for-image {
   width: 30px;
 }
-.forInputs {
+.for-inputs {
   display: flex;
 }
 
 @media screen and (min-width: 768px) {
-  .forInner {
+  .for-inner {
     align-items: flex-start;
     padding-left: 30px;
     margin-left: 40px;
   }
-  .forHeader {
+  .for-header {
     margin-left: 30px;
     font-size: 28px;
   }
-  .forInput {
+  .for-input {
     margin-left: 30px;
     width: 230px;
   }

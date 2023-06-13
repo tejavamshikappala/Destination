@@ -1,16 +1,16 @@
-.for_list {
+.for-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px;
 }
-.for_img {
+.for-img {
   border-radius: 15px;
 
   width: 60vw;
 }
-.for_para {
+.for-para {
   color: #000000;
   flex-wrap: wrap;
   align-self: flex-start;
@@ -22,7 +22,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .for_img {
+  .for-img {
     width: 230px;
   }
 }
